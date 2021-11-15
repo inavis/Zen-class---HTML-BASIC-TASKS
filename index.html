@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<!--HTML 5-->
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel = "stylesheet" href="style.css">  
+    <title>HTML BASIC TAGS</title>
+
+    <style>
+      .text{
+        width: 400px;
+        height: 35px;
+        font-family: cursive;
+      }
+      textarea{
+        width: 400px;
+        height: 100px;
+        font-family: cursive;
+      }
+      button{
+        width: 100px;
+        height: 50px;
+      }
+
+      .form2{
+        width:400px;
+      }
+      .text2{
+        border: none;
+         border-bottom: solid 2px black;
+          text-align: center;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: 600;
+      }
+
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align:center;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <div>
+      <h3>1 ,2 --  DEBUGGING TASKS</h3>
+    </div>
+    <hr>
+
+    <div>
+      <h3>QUESTION: <br><br> 3 .	Design a contact us form with all fields as required <br><br>OUTPUT:</h3>
+    </div>
+    <br>
+    <div>
+      <div align="center">
+        <form action="#" method="" >
+          <fieldset   style = "width:450px;" >
+            <b>CONTACT FORM</b>
+      
+            <br><br><br>
+      
+            <label for="">
+              <input type="text" class="text" placeholder="NAME" required="required">
+            </label>
+      
+            <br><br><br>
+      
+            <label for="">
+              <input type="email" class="text" placeholder="EMAIL ADDRESS" required="required">
+            </label>
+      
+            <br><br><br>
+      
+            <label for="">
+              <input type="text" class="text" placeholder="PHONE" required="required">
+            </label>
+      
+            <br><br><br>
+      
+            <label for="">
+              <input type="text"  class="text" placeholder="SUBJECT" required="required">
+            </label>
+      
+            <br><br><br>
+      
+            <label for="">
+              <textarea placeholder="MESSAGE WITH MAX LENGTH 500" maxlength="500" required="required"></textarea>
+            </label>
+      
+            <br><br><br>
+      
+            <button>SUBMIT</button>
+      
+            <br><br><br>
+      
+          </fieldset>
+        </form>
+      </div>
+  
+    </div>
+
+    <hr>
+
+    <div>
+
+  <h3>QUESTION:<br><br>4.	Use certain HTML elements to display the following in a HTML page<br><br>OUTPUT:
+        </h3>
+    </div>
+    <div>
+      <ul>
+        <li>Programming language</li>
+          <ul>
+            <li>Javascript</li>
+              <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+              </ol>
+            <li>Python</li>
+            <ol type="a">
+              <li>Django framework</li>
+              <li>Flask framework</li>
+            </ol>
+            <li>java</li>
+            <ol type="a">
+              <li>Spring</li>
+              <li>maven</li>
+              <li>Hibernate</li>
+            </ol>
+          </ul>
+        <li>Database</li>
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Cansandra</li>
+        </ul>
+      </ul>
+  
+    </div>
+
+
+    <hr>
+
+
+
+    <div>
+      <h3>QUESTION:<br><br>5.	Create an element that helps you to open the https://google.com in separate new tab.<br><br>OUTPUT:</h3>
+    </div>
+    <div>
+      <a href="https://google.com" target="blank">Click here to open google</a>
+    </div>
+
+
+    <hr>
+
+
+    <div>
+      <h3>QUESTION:<br><br>6.	In the form, add two radio buttons with grouping them for employee type(Salaried and own business<br><br>OUTPUT:</h3>
+    </div>
+    <div>
+        
+     <form action="#" method="">
+      <fieldset>
+        <b>EMPLOYEE DETAILS</b>
+        <br><br>
+
+          <p>Employee type :</p>
+          
+          <!--
+             RADIO BUTTONS ARE GROUPED WITH SAME name="emptype"
+          -->
+          <label for="salaried">
+            <input type="radio" value="salaried" name="emptype"/>Salaried
+          </label>
+          <br>
+          <label for="ownbusiness">
+            <input type="radio" value="ownbusiness" name="emptype"/>Own Business
+          </label>
+        
+      </fieldset>
+     </form>
+
+    </div>
+    <hr>
+
+    <div>
+      <h3>QUESTION:<br><br>7.	Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)<br><br>OUTPUT:</h3>
+    </div>
+    <div>
+        
+     <form action="#" method="">
+ 
+      <fieldset class="form2">
+        <center style="background-color: red; color: white; height: 25px;">
+          <b>Yes! I want to subscribe to Mag-O-Zine</b>
+        </center>
+        <br>
+        <label style="float: left;">
+          <input type="text"  value="Joe" style="float: left;width: 180px; " class="text2"/>
+          <br>
+          FirstName
+        </label>
+        <label style="float: right; ">
+          <input type="text" value="Schnawagger" style="float: right;width:180px ; " class="text2"/>
+          <br>
+          LastName
+        </label>
+        <br>
+        <label>
+          <input type="text" value="1001 Washington Street" style="width: 400px;" class="text2"/>
+          <br>
+          Address
+        </label>
+          <br>
+
+            <label style="float: left; width: 33%;">
+              <input type="text" value="Amfina" style="width: 100px;" class="text2"/>
+              <br>
+              City
+            </label>
+            <label  style="float: left; width: 33%;">
+              <input type="text" value="C4" style="width: 100px;" class="text2"/>
+              <br>
+              State
+            </label>
+            <label  style="float: left; width: 33%;">
+              <input type="text" value="99999" style="width: 100px;" class="text2"/>
+              <br>
+              Zip
+            </label>
+
+            <br><br><br>
+            
+            <b>Subscribe for: </b>
+            <label>
+              <input type="checkbox" /> <b>1 year ($19.95)</b>
+            </label>
+            <label>
+              <input type="checkbox" /> <b>2 years ($35.00)</b>
+            </label>
+
+            <br><br>
+            
+            <label>
+              <b>Send me more information about:</b>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox"/><b>Computer-Zine</b>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox"/><b>Fishing-Zine</b>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox"/><b>Cat-O-Zine</b>
+            </label>
+            <br>
+
+      </fieldset>
+
+     </form>
+
+    </div>
+    <hr>
+
+    <div>
+      <h3>QUESTION:<br><br>8.	Use the table tag to design given image Click here<br>
+        <img src="table-task.png"/>
+        <br><br>OUTPUT:</h3>
+     
+    </div>
+    <div>
+      <h4>Health Chart</h4>
+
+    <table cellspacing="4" cellpadding="4">
+      <tr>
+        <td rowspan="2">State of health</td>
+        <td colspan="2">Fasting value</td>
+        <td>After eating</td>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hours after eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 140</td>
+      </tr>
+       <tr>
+        <td>Pre-diabetis</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+       <tr>
+        <td>Post-Diabetis</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+
+    </div>
+    <hr>
+
+    <div>
+      <h3>QUESTION:<br><br>9.Write HTML input tags snippet to show default values for all Form elements.<br><br>OUTPUT:</h3>
+    </div>
+    <div>
+      <form method="#" action=""> 
+        <fieldset class="form2">
+          <legend align="center">DEFAULT VALUES FOR ALL FORM ELEMENTS</legend>
+          <br><br>
+          <label>
+            Name:
+            <input type="text" value="Joe Schwan"/>
+          </label>
+          <br><br><br>
+          <label>
+            Category:
+           <select size="2">
+             <option >Service is not good</option>
+             <option selected>Product damaged</option>
+             <option>Quality not satisfied</option>
+             <option>Not in working condition</option>
+           </select>
+          </label>
+          <br><br><br>
+          <label>
+            Product:
+            <input list="product" value="Product E">
+          <datalist id="product">
+          <option value="Product A">
+          <option value="Product B">
+          <option value="Product C">
+          <option value="Product D">
+          <option value="Product E">
+        </datalist>
+        </label>
+        <br><br><br>
+        <label>
+          Action:
+          <input type="checkbox" checked="checked"/>Exchange
+          <input type="checkbox"/>Return
+        </label>
+        <br><br><br>
+        <label>
+          Return or exchange to:
+          <input type="radio" checked="checked"/>Same Address
+          <input type="radio"/>Other
+        </label>
+        <br><br><br>
+        <label>
+          Message:
+          <textarea rows="4" cols="34">
+            Additional remarks(optional)
+          </textarea>
+        </label>
+        <br><br><br>
+        <button>SUBMIT</button>
+        </fieldset>
+       </form>
+      
+    </div>
+<hr>
+
+<div>
+  <h3>QUESTION:<br><br>10.	In your, HTML page add the below line and Highlight it without using any CSS.
+   <br> •	"HTML & CSS is awesome"
+     <br><br>OUTPUT:</h3>
+</div>
+<div>
+  <mark>"HTML & CSS is awesome"</mark>
+</div>
+<hr>
+
+
+
+<div>
+  <h3>QUESTION:<br><br>11.	Create an HTML page, which should contain all types of input elements. <br><br>OUTPUT:</h3>
+</div>
+<div>
+  <form action="#" method="">
+
+    <fieldset style="width: 700px;">
+      <legend>ALL INPUT ELEMENTS</legend>
+      <br><br>
+      <label>
+        Search Google:
+        <input type="search"/>
+        <input type="submit" value="SEARCH"/>
+      </label>
+      <br><br>
+      <label for="name">
+        Name:
+        <input type="text" />
+      </label>
+      <br><br>
+      <label for="email">
+        Email Id:
+        <input type="email"/>
+      </label>
+      <br><br>
+      <label for="password">
+        Password:
+        <input type="password"/>
+      </label>
+      <br><br>
+      <label for="age">
+        Age:
+        <input type="number" />
+      </label>
+      <br><br>
+      <label for="phone">
+        Phone number:
+        <input type="tel" pattern="[0-9]{10}" />
+      </label>
+      <br><br>
+      <label for="profileurl">
+        Profile Link:
+        <input type="url" />
+      </label>
+      <br><br>
+      <label for="profilefile">
+        Upload document:
+        <input type="file"/>
+      </label>
+      <br><br>
+      <label for="profilepicture">
+        Profile Picture:
+        <input type="image"/>
+      </label>
+      <br><br>
+      <label for="favcolor">
+        Choose favourite color:
+        <input type="color"/>
+      </label>
+      <br><br>
+      <label for="profession">
+        Choose Profession:
+        <input type="radio"/> Self-Employeed
+        <input type="radio"/> Government Sector
+        <input type="radio"/> Private Company
+        <input type="radio"/> Large level Business
+        <input type="radio"/>Student
+        <input type="radio"/>Unemployed
+      </label>
+      <br><br>
+      <label for="hobbies">
+        Hobbies:
+        <input type="checkbox"/>Gardening
+        <input type="checkbox"/>Reading
+        <input type="checkbox"/>Music
+        <input type="checkbox"/>Other
+      </label>
+      <br><br>
+      <label for="likeness">
+        Level of Likeness (0 to 10):
+        Blogs:<input type="range" min="0" max="10"/>
+        Travel:<input type="range" min="0" max="10"/>
+        Gym:<input type="range" min="0" max="10"/>
+      </label>
+      <br><br>
+      <label for="birthdate">
+        Date of Birth:
+        <input type="date"/>
+      </label>
+      <br><br>
+      <label for="birthtime">
+        Time of Birth:
+        <input type="time"/>
+      </label>
+      <br><br>
+      <label for="preferred">
+        Preffered date and time to meet:
+        <input type="datetime-local"/>
+      </label>
+      <br><br>
+      <label for="week">
+        Favourite week:
+        <input type="week"/>
+      </label>
+      <br><br>
+      <label>
+        Favourite month:
+        <input type="month"/>
+      </label>
+      <br><br>
+
+      <input type="submit"/>
+      <input type="reset"/>
+      <input type="button" value="GO BACk"/>
+      <label>
+        <input type="hidden" value="creating profile"/>
+      </label>
+    </fieldset>
+
+  </form>
+
+</div>
+<hr>
+
+
+
+  </body>
+
+  <!-- lodash.js is downloaded and placed in current folder -->
+  <script src="./lodash.js"></script>
+  <script src="./script.js"></script>
+
+</html>
